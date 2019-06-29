@@ -43,30 +43,21 @@ So according to the example above, the object for "_/about_" route should look t
 ```json
 {
   "get": [
-    "_other": "data",
+    { "_other": "data" },
     {
       "file": "person",
       "function": "about",
       "route": "/about"
     }
   ],
-  "post": [
-    "_other": "data"
-  ],
-  "put": [
-    "_other": "data"
-  ],
-  "delete": [
-    "_other": "data"
-  ],
-  "all": [
-    "_other": "data"
-  ]
+  "post": [{ "_other": "data" }],
+  "put": [{ "_other": "data" }],
+  "delete": [{ "_other": "data" }],
+  "all": [{ "_other": "data" }]
 }
-
 ```
 
-...where "\__other: data_" is just a placeholder for other routes.
+...where `{"_other": "data"}` is just a placeholder for other routes.
 
 ### Error 404 route
 
