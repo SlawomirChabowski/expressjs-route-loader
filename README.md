@@ -43,7 +43,7 @@ So according to the example above, the object for "_/about_" route should look t
 ```json
 {
   "get": [
-    _other: data,
+    "_other": "data",
     {
       "file": "person",
       "function": "about",
@@ -51,16 +51,16 @@ So according to the example above, the object for "_/about_" route should look t
     }
   ],
   "post": [
-    _other: data
+    "_other": "data"
   ],
   "put": [
-    _other: data
+    "_other": "data"
   ],
   "delete": [
-    _other: data
+    "_other": "data"
   ],
   "all": [
-    _other: data
+    "_other": "data"
   ]
 }
 
