@@ -2,6 +2,14 @@
 
 The following skeleton is made to easily handle multi-file route management in ExpressJS application. All you need to do is to define a file with function (like you would do it normally in `index.js` file) inside `./src` folder and define a route inside `routes.json` file. It is that simple!
 
+## First run
+
+Don not forget to install all dependencies before first run!
+
+```
+npm install
+```
+
 ## Running the application
 
 To run the application go to project root directory and run the following command:
